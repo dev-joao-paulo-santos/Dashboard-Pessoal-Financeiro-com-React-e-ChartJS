@@ -58,6 +58,7 @@ const AddExpenseForm = ({ onAddExpense, expenseToEdit, onClearEdit }) => {
           <option></option>
           <option>Transporte</option>
           <option>Alimentação</option>
+          <option>Contas</option>
           <option>Outros</option>
         </select>
       </div>
