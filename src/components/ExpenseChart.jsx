@@ -9,7 +9,7 @@ const ExpenseChart = ({expenses}) => {
 
     useEffect(()=>{Aos.init({duration: 1000})}, [])
 
-    const categories = ["Transporte", "Alimentação", "Outros"];
+    const categories = ["Transporte", "Alimentação", "Contas", "Outros"];
     const dataByCategory = categories.map((category) => 
     expenses
     .filter((expense) => expense.category === category)
@@ -22,7 +22,7 @@ const data = {
         {
             label: "Gastos por Categoria",
             data: dataByCategory,
-            backgroundColor: ["#FF1053", "#27FB6B", "#261447"]
+            backgroundColor: ["#FF1053", "#27FB6B", "#FAAA65", "#264488"]
         }
     ]
 }
