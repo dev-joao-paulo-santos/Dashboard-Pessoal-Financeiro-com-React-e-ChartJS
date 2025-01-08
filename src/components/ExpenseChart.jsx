@@ -29,7 +29,7 @@ const data = {
 
   return (
     <div className="mt-6 w-3/6 bg-white p-4 shadow rounded" data-aos='flip-down'>
-        <h2 className="text-xl font-bold mb-4">Gráfico de Gastos</h2>
+        <h2 className="text-xl text-center font-bold mb-4">Gráfico de Gastos</h2>
         <Bar data={data}/>
     </div>
   )
